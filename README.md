@@ -1,5 +1,6 @@
-# Challenge FrontEnd ML
+# Challenge FrontEnd Mercado Libre
+    Jeisson Arturo Gomez Ayala
 
-Iniciar Proyecto:
+# Iniciar Proyecto:
     - yarn install
     - yarn start
