@@ -1,0 +1,71 @@
+.loading {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.error {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 20px;
+    color: var(--color-black);
+}
+.category-tree {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    color: var(--color-silver);
+    background-color: var(--color-light-gray);
+}
+.category-tree > div > span:last-child {
+    font-weight: bold;
+}
+.details, .product-details {
+    background-color: var(--color-light-gray);
+}
+.product-details > div {
+    border-radius: 4px;
+    background-color: white;
+}
+.block > div:last-child {
+    padding: 0 32px;
+}
+.block > div {
+    line-height: 1;
+}
+.block > div > .img {
+    padding: 15px 32px 0 32px;
+    text-align: center;
+}
+.block > div > .title {
+    font-size: 28px;
+    color: var(--color-black);
+    padding: 32px;
+}
+.block > div > .description {
+    font-size: 16px;
+    color: var(--color-silver);
+    padding: 0 32px 32px 32px;
+}
+.block > div > .condition {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    color: var(--color-black);
+}
+.block > div > .name {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color-black);
+}
+.block > div > .price {
+    font-size: 46px;
+    color: var(--color-black);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.block > div > .buy > button {
+    width: 100%;
+    background-color: var(--color-blue);
+    border-color: var(--color-blue);
+}

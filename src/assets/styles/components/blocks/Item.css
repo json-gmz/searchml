@@ -1,0 +1,46 @@
+.link-item:hover {
+    text-decoration: none;
+}
+.item {
+    padding: 16px;
+}
+.item > .img {
+    padding-left: 16px;
+    padding-right: 0px;
+}
+.item > .img > img {
+    width: 180px;
+    height: 180px;
+    border-radius: var(--size-radius);
+}
+.item > .detail > div {
+    line-height: 1;
+}
+.item > .detail > .price > span {
+    margin-right: 5px;
+}
+.item > .detail > .price > .free_shipping {
+    vertical-align: initial;
+}
+.item > .detail > .price {
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.item > .detail {
+    color: var(--color-black);
+}
+.item > .detail > .name, .item > .detail > .condition {
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+.item > .location, .item > .detail {
+    padding-top: 15px;
+}
+.item > .location {
+    font-size: 12px;
+    text-align: center;
+    color: var(--color-silver);
+}
+.item > .location > .city {
+    margin-top: 35px;
+}
