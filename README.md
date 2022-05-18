@@ -1,6 +1,7 @@
 # Challenge FrontEnd Mercado Libre
     Jeisson Arturo Gomez Ayala
 
-# Iniciar Proyecto:
+# Iniciar FrontEnd:
+    - cd PATH/front
     - yarn install
     - yarn start
